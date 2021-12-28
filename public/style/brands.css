@@ -1,0 +1,90 @@
+.brand-section {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.brand-img {
+    display: flex;
+    justify-content: center;
+
+} 
+
+.brand-logo {
+    width: 300px;
+}
+
+.brand-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.brand-text div {
+    width: 46%;
+    font-size: 13px;
+    color: #25336D;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.brand-products {
+    color: #25336D;
+}
+
+.brand-products pre {
+    font-size: 13px;
+    white-space: pre-line;
+    margin-bottom: 20px;
+}
+
+.brand-text p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #25336D;
+}
+
+.brand-text b {
+    color: #25336D;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1600px) {
+    .brand-section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .brand-text {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .brand-text div {
+        width: 100%;
+    }
+
+    .brand-products {
+        color: #25336D;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .brand-text b {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .brand-section {
+        width: 100%;
+    }
+}
