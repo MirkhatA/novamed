@@ -129,8 +129,24 @@ main {
     background-image: url(/images/anastesiya.jpg);
 }
 
+.item3:hover {
+    background-image: url(/images/gas-control.jpg);
+}
+
 .item4:hover {
-    background-image: url(/images/monitoring.);
+    background-image: url(/images/monitors.jpg);
+}
+
+.item5:hover {
+    background-image: url(/images/neo_ther.jpg);
+}
+
+.item6:hover {
+    background-image: url(/images/master-class.jpg);
+}
+
+.item7:hover {
+    background-image: url(/images/dom_therapi.jpg);
 }
 
 .sertificate__section p {
